@@ -1,0 +1,113 @@
+.bannerCloseButton {
+  font-size: 30px;
+}
+
+.bannerCloseButton:hover {
+  cursor: pointer;
+}
+
+.homeVideosLoader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.homeEachVideoLinks {
+  text-decoration: none;
+}
+
+.darkColor {
+  color: #ffffff;
+}
+
+.lightColor {
+  color: #231f20;
+}
+
+.homeEachVideoContainer {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .homeEachVideoContainer {
+    width: 31.4%;
+    margin: 10px;
+  }
+  .homeLargeChannelName {
+    margin-bottom: 5px;
+  }
+  .homeSmallParas {
+    display: none;
+  }
+  .homeEachVideoTitlePara {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .homeEachVideoContainer {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .homeEachVideoViewsContainer {
+    margin-top: -15px;
+  }
+  .homeEachVideoSubContainer {
+    padding: 0 10px;
+  }
+  .homeLargeChannelName {
+    display: none;
+  }
+}
+
+.homeEachVideoThumbnailLogo {
+  width: 100%;
+}
+
+.homeEachVideoSubContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: fit-content;
+}
+
+.homeEachVideoChannelLogo {
+  width: 40px;
+  margin-top: 20px;
+}
+
+.homeEachVideoViewsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30px;
+}
+
+.homeEachVideoTitlePara {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.homeEachVideoParas {
+  font-weight: 600;
+  color: #606060;
+  margin-right: 10px;
+}
+
+.homeEachVideoTitleContainer {
+  margin-left: 10px;
+}
+
+.homeDot {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 15px;
+}
+
+.homeBannerCloseButton {
+  background-color: transparent;
+  border-style: none;
+}

@@ -1,0 +1,12 @@
+.HomeErrorImage {
+  width: 300px;
+}
+
+.HomeErrorRetryButton {
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-size: 14px;
+  border-style: none;
+  padding: 10px 24px;
+  border-radius: 3px;
+}

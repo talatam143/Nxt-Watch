@@ -1,0 +1,99 @@
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20vw;
+  height: 88vh;
+}
+
+.darkStyles {
+  background-color: #212121;
+  color: #ffffff;
+}
+
+.menuListContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.menuListLinkItems {
+  text-decoration: none;
+  color: black;
+  padding: 12px 5px;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.darkListLinkItems {
+  text-decoration: none;
+  color: white;
+  padding: 12px 5px;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.SelectedLinkItem {
+  text-decoration: none;
+  color: black;
+  padding: 12px 5px;
+  font-weight: 600;
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ebebeb;
+}
+
+.SelectedDarkLinkItem {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 12px 5px;
+  font-weight: 600;
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #424242;
+}
+
+.SelectedMenuIcons {
+  margin: 0 20px;
+  color: #ff0000;
+}
+
+.menuIcons {
+  margin: 0 20px;
+}
+
+.menuContactContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.contactContainerImages {
+  width: 40px;
+  margin: 10px 10px 10px 0;
+}
+
+.contactContainerHeading {
+  font-weight: 700;
+}
+
+.contactContainerPara {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .menuContainer {
+    display: none;
+  }
+}
